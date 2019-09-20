@@ -10,5 +10,5 @@ class ListVersions(WsResource):
     def render_GET(self, txrequest):
         args = native_stringify_dict(copy(txrequest.args), keys_only=False)
         project = args['project'][0]
-        versions = FilesystemEggStorage().list("aikucun_scrapy_spiders")
+        versions = FilesystemEggStorage().list(project)
         return {"node_name": self.root.nodename, "status": "ok", "versions": versions}

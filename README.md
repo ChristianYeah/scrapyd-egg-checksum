@@ -19,7 +19,7 @@ curl http://127.0.0.1:6800/listversions_advanced.json?project=ABC
 you will get like
 
 ```
-{"node_name": "Christians-Another-MacBook-Pro.local", "status": "ok", "versions": [{"1_0_0": "793afec3676f9749d1616f48dd57fe07"}, {"1_0_1": "ccb6b8841e2b5443db4bff56924527fa"}]}
+{"node_name": "Christians-Another-MacBook-Pro.local", "status": "ok", "versions": [{"version": "1_0_0", "checksum": "793afec3676f9749d1616f48dd57fe07"}, {"version": "1_0_1", "checksum": "ccb6b8841e2b5443db4bff56924527fa"}]}
 ```
 
 

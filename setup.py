@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 setuptools.setup(
     name='scrapyd_egg_checksum',
-    version='0.1.1',
+    version='0.1.2',
     author="Xiaodong Ye",
     author_email="470504024@qq.com",
     url='https://github.com/ChristianYeah/scrapyd-egg-checksum',
